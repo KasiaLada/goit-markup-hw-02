@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 500 700 900;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.links .link:hover  {
+  color: #2196F3;
+}
+.links .link:focus  {
+  color: #2196F3;
+}
+.contact .link:hover {
+  color: #2196F3;
+}
+.contact .link:focus {
+  color: #2196F3;
+}
+.click:hover {
+  color: #ffffff;
+  background-color: #2196F3;
+  cursor:pointer;
+}
+.click:focus {
+  color: #ffffff;
+  background-color: #2196F3;
+}
+.buttons .click {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.studio {color:#000000;}
+
+.links .link {
+text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contact .link {
+text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.name {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.footer .logo .studio {
+color: #FFFFFF;
+}
+.address {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.address .mail {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: rgba(255, 255, 255, 0.6);
+}
+.mail:hover {
+color: #2196F3;
+}
+.mail:focus  {
+color: #2196F3;
+}
+.address .tel {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.6);
+}
+.tel:hover {
+color: #2196F3;
+}
+.tel:focus  {
+color: #2196F3;
+}
