@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400 500 700 900;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -23,13 +23,30 @@ body {
 .contact .link:focus {
   color: #2196F3;
 }
-
-.click:hover {
+.main-button .click {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+color: #FFFFFF;
+background-color:#2196F3;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.buttons .click:hover {
   color: #ffffff;
   background-color: #2196F3;
   cursor:pointer;
+  border-radius: 4px;
 }
-
+.click:hover {
+  cursor:pointer;
+}
 .click:focus {
   color: #ffffff;
   background-color: #2196F3;
@@ -38,38 +55,52 @@ body {
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.363;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
   }
 
-.main-button .clik {
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-
-color: #FFFFFF;
-}
-
 .buttons .click {
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+background-color: #F5F4FA;
+border-radius: 4px;
 }
+.wszystkie {
+width: 121px;
+height: 38px;
+}
+.strony {
+width: 93px;
+height: 38px;
+}
+.aplikacje {
+width: 114px;
+height: 38px;
+}
+.dizajn {
+width: 91px;
+height: 38px;
+}
+.marketing {
+width: 121px;
+height: 38px;
+}
+
 .logo {
 font-family: 'Raleway';
 font-style: normal;
 text-decoration: none;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -80,7 +111,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
@@ -89,7 +120,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -97,7 +128,7 @@ color: #757575;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
@@ -105,7 +136,7 @@ color: #212121;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -114,7 +145,7 @@ color: #212121;
   font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -122,7 +153,7 @@ color: #757575;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -131,7 +162,7 @@ color: #212121;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -143,7 +174,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
@@ -151,7 +182,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration-line: underline;
 color: rgba(255, 255, 255, 0.6);
@@ -166,7 +197,7 @@ color: #2196F3;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
